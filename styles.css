@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.main{
+    height: 100%;
+    width: 100%;
+}
+.divone{
+    background-image:url('./images/hero-cover3.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw 8vw 0vw 8vw ;
+    justify-content: space-between;
+    
+}
+.navig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.logindet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logindet h5{
+    margin-right: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.nav li{
+    margin-left: 30px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+.navig h3{
+    font-size: 1.5em;
+}
+.landpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+    font-family: 'Outfit', sans-serif;
+}
+.landpage h1{
+    font-size: 3em;
+    color: white;
+    font-weight: 800;
+}
+.landpage p{
+    font-size: 1.5em;
+    color: white;
+}
+.landpage a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 40px;
+    background-color: dodgerblue;
+    padding: 13px 40px;
+    border-radius: 5px;
+
+}
+.btn a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color:transparent;
+    padding: 13px 35px;
+    border-radius: 40px;
+    border: 1.5px solid white;
+}
+.threecard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13vw;
+}
+.cardbox1{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 13px 20px;
+    margin-left: 20px;
+}
+.cardbox1 img{
+    width: 40%;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-top: 20vh;
+}
+.indus{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bordercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0vw 10vw 0vw 10vw;
+}
+.picard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 4em 0em;
+}
+.picard img{
+    width: 50%;
+}
+.promo{
+    margin: 10vw 10vw 0vw 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.promo img{
+    width: 80px;
+    height: 60px;
+}
+
+.colorediv{
+    background: linear-gradient(to right,rgb(0,15,137),red) ;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 5vh 8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.colorediv p{
+    font-size: 1.5em;
+}
+.colorediv input{
+    font-size: 2em;
+    border-radius: 5px 0px 0px 5px;
+}
+.colorediv a{
+    background-color: dodgerblue;
+    padding: 1.5vh 1vw;
+    
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bord-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 15vw;
+}
+.cardbord{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 1vh 3vw;
+    border-radius: 7px;
+    align-items: center;
+    margin-top: 7vh;
+    margin-left: 1px;
+}
+.cardbord:nth-child(even){
+    background-color: black;
+    color: white;
+   
+    margin-bottom: 1.5vh;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dolar{
+    display: flex;
+    flex-direction: column;
+}
+.bigbtn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 1.5vh 2vw;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.chek{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.chek img{
+    width: 10%;
+    height: 10%;
+}
+.chek p{
+    margin-left: 1em;
+}
+.world{
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 14vw 0vh 14vw;
+    justify-content: space-between;
+    background-color:black;
+    height: 60vh;
+    color: white;
+    padding-top: 4em;
+}
+.world img{
+    width:40%;
+    height: 40%;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.formimg{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: -12em;
+}
+.formimg img{
+    width: 30%;
+    height: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0em 2em;
+}
+.consult{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3em 0em;
+}
+.consult a{
+    text-decoration: none;
+    color:  white;
+    background-color: dodgerblue;
+    align-self: center;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5, 35px);
+    padding: 3vh 14vw 0vh 14vw;
+}
